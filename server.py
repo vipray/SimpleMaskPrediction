@@ -6,7 +6,7 @@ import numpy as np
 
 # Initialize the Flask application
 app = Flask(__name__)
-app.config["IMAGE_UPLOADS"] = "/home/cidacoder/pythonAPI"
+app.config["IMAGE_UPLOADS"] = os.getcwd()
 
 # Function takes image in b/w(gray) and original image(frame)
 # and return image with detector rectangles.
