@@ -36,7 +36,7 @@ mccabe==0.6.1
 mistune==0.8.3
 nbconvert==5.5.0
 nbformat==5.0.7
-numpy==1.18.5
+numpy==1.22.0
 numpydoc==1.1.0
 opencv-python==3.4.3.18
 packaging==20.4
